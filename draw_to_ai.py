@@ -45,7 +45,7 @@ def generate_image(image_path):
     b64_image = encode_image(image_path)
 
     # Transcribe drawing
-    print("🔍 Interpreting drawing...")
+    print("Interpreting drawing...")
     vision_prompt = "Provide a highly detailed, objective description of the scene depicted in this hand drawing. ..."
     vision_response = client.responses.create(
         model="gpt-4o",
@@ -62,7 +62,7 @@ def generate_image(image_path):
     description = vision_response.output[0].content[0].text
 
     # Generate text to image prompt for Dalle
-    print("\n🤖 Crafting DALL·E prompt...")
+    print("\nGenerating prompt for DALLE...")
     chat_response = client.responses.create(
         model="gpt-4o",
         input=[
