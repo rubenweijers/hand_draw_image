@@ -2,6 +2,8 @@
 
 A Python script that transforms sketches into digital images using DALL-E 3.
 
+<img src="images/thumbnail_p4.png" alt="Thumbnail" width="600"/>
+
 ## Instructions
 
 1. **Clone the repository**:
