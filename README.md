@@ -14,7 +14,7 @@ A Python script that transforms sketches into digital images using DALL-E 3.
    ```bash
     pip install -r requirements.txt
 
-3. **Create a .env file in the root directory with your API key:**:
+3. **Create a .env file in the root directory with your API key**
 
 4. **Run the script:**:
    ```bash
